@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Net.S._2018.Zenovich._11.Time
+namespace Net.S._2018.Zenovich._11.Time.Interfaces
 {
-    public class Class1
+    public interface ITimer
     {
+        event TimerFunc TimerEvent;
     }
 }
